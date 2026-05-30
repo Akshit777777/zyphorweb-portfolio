@@ -6,6 +6,10 @@ export const metadata: Metadata = {
   description:
     "ZyphorWeb creates premium, responsive websites for businesses, creators, restaurants, startups, and personal brands.",
   keywords: ["ZyphorWeb", "web design agency", "affordable websites", "Next.js websites", "portfolio websites"],
+  
+  verification: {
+    google: "V0aBNxbqT5DARrpbyu1Mt5Jpp_4tOXS6eHzDAt6ONgI"
+  },
   openGraph: {
     title: "ZyphorWeb | Premium Website Development",
     description: "Modern websites crafted for brands that want a polished, fast, and cinematic online presence.",
