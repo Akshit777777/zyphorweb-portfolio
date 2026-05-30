@@ -1,0 +1,32 @@
+0 verbose cli C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\npm\bin\npm-cli.js
+1 info using npm@10.8.2
+2 info using node@v20.20.0
+3 silly config load:file:C:\Program Files\nodejs\node_modules\npm\npmrc
+4 silly config load:file:C:\Users\aryam\Documents\Codex\2026-05-29\files-mentioned-by-the-user-screenshot\.npmrc
+5 silly config load:file:C:\Users\aryam\.npmrc
+6 silly config load:file:C:\Users\aryam\AppData\Roaming\npm\etc\npmrc
+7 verbose title npm install
+8 verbose argv "install" "--cache" "./.npm-cache" "--no-audit" "--no-fund"
+9 verbose logfile logs-max:10 dir:C:\Users\aryam\Documents\Codex\2026-05-29\files-mentioned-by-the-user-screenshot\.npm-cache\_logs\2026-05-30T03_56_11_900Z-
+10 verbose logfile C:\Users\aryam\Documents\Codex\2026-05-29\files-mentioned-by-the-user-screenshot\.npm-cache\_logs\2026-05-30T03_56_11_900Z-debug-0.log
+11 silly packumentCache heap:2197815296 maxSize:549453824 maxEntrySize:274726912
+12 silly logfile done cleaning log files
+13 silly idealTree buildDeps
+14 silly fetch manifest @img/sharp-darwin-arm64@0.34.5
+15 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-darwin-arm64 cache-miss
+16 http fetch GET https://registry.npmjs.org/@img%2fsharp-darwin-arm64 attempt 1 failed with ENOENT
+17 http fetch GET https://registry.npmjs.org/@img%2fsharp-darwin-arm64 attempt 2 failed with ENOENT
+18 http fetch GET https://registry.npmjs.org/@img%2fsharp-darwin-arm64 attempt 3 failed with ENOENT
+19 http fetch GET 200 https://registry.npmjs.org/@img%2fsharp-darwin-arm64 70793ms (cache stale)
+20 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-darwin-arm64 set size:76460 disposed:false
+21 silly fetch manifest @img/sharp-darwin-x64@0.34.5
+22 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-darwin-x64 cache-miss
+23 http fetch GET https://registry.npmjs.org/@img%2fsharp-darwin-x64 attempt 1 failed with ENOENT
+24 http fetch GET https://registry.npmjs.org/@img%2fsharp-darwin-x64 attempt 2 failed with ENOENT
+25 http fetch GET https://registry.npmjs.org/@img%2fsharp-darwin-x64 attempt 3 failed with ENOENT
+26 http fetch GET 200 https://registry.npmjs.org/@img%2fsharp-darwin-x64 70109ms (cache stale)
+27 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-darwin-x64 set size:75437 disposed:false
+28 silly fetch manifest @img/sharp-libvips-darwin-arm64@1.2.4
+29 silly packumentCache full:https://registry.npmjs.org/@img%2fsharp-libvips-darwin-arm64 cache-miss
+30 http fetch GET https://registry.npmjs.org/@img%2fsharp-libvips-darwin-arm64 attempt 1 failed with ENOENT
+31 http fetch GET https://registry.npmjs.org/@img%2fsharp-libvips-darwin-arm64 attempt 2 failed with ENOENT

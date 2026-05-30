@@ -1,0 +1,382 @@
+0 verbose cli C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\npm\bin\npm-cli.js
+1 info using npm@10.8.2
+2 info using node@v20.20.0
+3 silly config load:file:C:\Program Files\nodejs\node_modules\npm\npmrc
+4 silly config load:file:C:\Users\aryam\Documents\Codex\2026-05-29\files-mentioned-by-the-user-screenshot\.npmrc
+5 silly config load:file:C:\Users\aryam\.npmrc
+6 silly config load:file:C:\Users\aryam\AppData\Roaming\npm\etc\npmrc
+7 verbose title npm install
+8 verbose argv "install" "--cache" ".\\.npm-cache" "--ignore-scripts" "--no-audit" "--no-fund"
+9 verbose logfile logs-max:10 dir:C:\Users\aryam\Documents\Codex\2026-05-29\files-mentioned-by-the-user-screenshot\.npm-cache\_logs\2026-05-29T18_14_17_946Z-
+10 verbose logfile C:\Users\aryam\Documents\Codex\2026-05-29\files-mentioned-by-the-user-screenshot\.npm-cache\_logs\2026-05-29T18_14_17_946Z-debug-0.log
+11 silly packumentCache heap:2197815296 maxSize:549453824 maxEntrySize:274726912
+12 silly logfile done cleaning log files
+13 silly idealTree buildDeps
+14 silly fetch manifest lucide-react@^0.468.0
+15 silly packumentCache full:https://registry.npmjs.org/lucide-react cache-miss
+16 http fetch GET 200 https://registry.npmjs.org/lucide-react 32ms (cache hit)
+17 silly packumentCache full:https://registry.npmjs.org/lucide-react set size:2269186 disposed:false
+18 silly fetch manifest react@^19.0.0
+19 silly packumentCache full:https://registry.npmjs.org/react cache-miss
+20 http fetch GET 200 https://registry.npmjs.org/react 20ms (cache hit)
+21 silly packumentCache full:https://registry.npmjs.org/react set size:6668742 disposed:false
+22 silly fetch manifest next@^15.3.4
+23 silly packumentCache full:https://registry.npmjs.org/next cache-miss
+24 http fetch GET 200 https://registry.npmjs.org/next 81ms (cache hit)
+25 silly packumentCache full:https://registry.npmjs.org/next set size:30539134 disposed:false
+26 silly fetch manifest @opentelemetry/api@^1.1.0
+27 silly packumentCache full:https://registry.npmjs.org/@opentelemetry%2fapi cache-miss
+28 http fetch GET 200 https://registry.npmjs.org/@opentelemetry%2fapi 7ms (cache hit)
+29 silly packumentCache full:https://registry.npmjs.org/@opentelemetry%2fapi set size:272967 disposed:false
+30 silly fetch manifest @playwright/test@^1.51.1
+31 silly packumentCache full:https://registry.npmjs.org/@playwright%2ftest cache-miss
+32 http fetch GET 200 https://registry.npmjs.org/@playwright%2ftest 24ms (cache hit)
+33 silly packumentCache full:https://registry.npmjs.org/@playwright%2ftest set size:9164481 disposed:false
+34 silly fetch manifest babel-plugin-react-compiler@*
+35 silly packumentCache full:https://registry.npmjs.org/babel-plugin-react-compiler cache-miss
+36 http fetch GET 200 https://registry.npmjs.org/babel-plugin-react-compiler 8ms (cache hit)
+37 silly packumentCache full:https://registry.npmjs.org/babel-plugin-react-compiler set size:1356999 disposed:false
+38 silly fetch manifest react-dom@^19.0.0
+39 silly packumentCache full:https://registry.npmjs.org/react-dom cache-miss
+40 http fetch GET 200 https://registry.npmjs.org/react-dom 26ms (cache hit)
+41 silly packumentCache full:https://registry.npmjs.org/react-dom set size:8898222 disposed:false
+42 silly fetch manifest sass@^1.3.0
+43 silly packumentCache full:https://registry.npmjs.org/sass cache-miss
+44 http fetch GET 200 https://registry.npmjs.org/sass 7ms (cache hit)
+45 silly packumentCache full:https://registry.npmjs.org/sass set size:728345 disposed:false
+46 silly placeDep ROOT lucide-react@0.468.0 REPLACE for: zyphorweb-portfolio-agency@1.0.0 want: ^0.468.0
+47 silly placeDep ROOT next@15.5.18 REPLACE for: zyphorweb-portfolio-agency@1.0.0 want: ^15.3.4
+48 silly fetch manifest @next/swc-darwin-x64@15.5.18
+49 silly packumentCache full:https://registry.npmjs.org/@next%2fswc-darwin-x64 cache-miss
+50 silly fetch manifest @next/swc-darwin-arm64@15.5.18
+51 silly packumentCache full:https://registry.npmjs.org/@next%2fswc-darwin-arm64 cache-miss
+52 silly fetch manifest @next/swc-linux-x64-gnu@15.5.18
+53 silly packumentCache full:https://registry.npmjs.org/@next%2fswc-linux-x64-gnu cache-miss
+54 http fetch GET 200 https://registry.npmjs.org/@next%2fswc-darwin-arm64 25ms (cache hit)
+55 silly packumentCache full:https://registry.npmjs.org/@next%2fswc-darwin-arm64 set size:5275877 disposed:false
+56 silly fetch manifest @next/swc-linux-x64-musl@15.5.18
+57 silly packumentCache full:https://registry.npmjs.org/@next%2fswc-linux-x64-musl cache-miss
+58 http fetch GET 200 https://registry.npmjs.org/@next%2fswc-darwin-x64 60ms (cache hit)
+59 silly packumentCache full:https://registry.npmjs.org/@next%2fswc-darwin-x64 set size:5218866 disposed:false
+60 silly fetch manifest @next/swc-linux-arm64-gnu@15.5.18
+61 silly packumentCache full:https://registry.npmjs.org/@next%2fswc-linux-arm64-gnu cache-miss
+62 http fetch GET 200 https://registry.npmjs.org/@next%2fswc-linux-x64-gnu 99ms (cache hit)
+63 silly packumentCache full:https://registry.npmjs.org/@next%2fswc-linux-x64-gnu set size:5325349 disposed:false
+64 silly fetch manifest @next/swc-linux-arm64-musl@15.5.18
+65 silly packumentCache full:https://registry.npmjs.org/@next%2fswc-linux-arm64-musl cache-miss
+66 http fetch GET 200 https://registry.npmjs.org/@next%2fswc-linux-arm64-gnu 62ms (cache hit)
+67 silly packumentCache full:https://registry.npmjs.org/@next%2fswc-linux-arm64-gnu set size:5128628 disposed:false
+68 silly fetch manifest @next/swc-win32-arm64-msvc@15.5.18
+69 silly packumentCache full:https://registry.npmjs.org/@next%2fswc-win32-arm64-msvc cache-miss
+70 http fetch GET 200 https://registry.npmjs.org/@next%2fswc-linux-x64-musl 142ms (cache hit)
+71 silly packumentCache full:https://registry.npmjs.org/@next%2fswc-linux-x64-musl set size:5081370 disposed:false
+72 http fetch GET 200 https://registry.npmjs.org/@next%2fswc-linux-arm64-musl 136ms (cache hit)
+73 silly packumentCache full:https://registry.npmjs.org/@next%2fswc-linux-arm64-musl set size:5146571 disposed:false
+74 http fetch GET 200 https://registry.npmjs.org/@next%2fswc-win32-arm64-msvc 131ms (cache hit)
+75 silly packumentCache full:https://registry.npmjs.org/@next%2fswc-win32-arm64-msvc set size:5110538 disposed:false
+76 silly fetch manifest fsevents@~2.3.2
+77 silly packumentCache full:https://registry.npmjs.org/fsevents cache-miss
+78 http fetch GET 200 https://registry.npmjs.org/fsevents 1804ms (cache revalidated)
+79 silly packumentCache full:https://registry.npmjs.org/fsevents set size:182472 disposed:false
+80 silly placeDep node_modules/chokidar fsevents@2.3.3 OK for: chokidar@3.6.0 want: ~2.3.2
+81 silly placeDep ROOT @next/swc-darwin-arm64@15.5.18 OK for: next@15.5.18 want: 15.5.18
+82 silly placeDep ROOT @next/swc-darwin-x64@15.5.18 OK for: next@15.5.18 want: 15.5.18
+83 silly placeDep ROOT @next/swc-linux-arm64-gnu@15.5.18 OK for: next@15.5.18 want: 15.5.18
+84 silly placeDep ROOT @next/swc-linux-arm64-musl@15.5.18 OK for: next@15.5.18 want: 15.5.18
+85 silly placeDep ROOT @next/swc-linux-x64-gnu@15.5.18 OK for: next@15.5.18 want: 15.5.18
+86 silly placeDep ROOT @next/swc-linux-x64-musl@15.5.18 OK for: next@15.5.18 want: 15.5.18
+87 silly placeDep ROOT @next/swc-win32-arm64-msvc@15.5.18 OK for: next@15.5.18 want: 15.5.18
+88 silly reify mark retired [
+88 silly reify   'C:\\Users\\aryam\\Documents\\Codex\\2026-05-29\\files-mentioned-by-the-user-screenshot\\node_modules\\fsevents'
+88 silly reify ]
+89 silly reify mark retired [
+89 silly reify   'C:\\Users\\aryam\\Documents\\Codex\\2026-05-29\\files-mentioned-by-the-user-screenshot\\node_modules\\lucide-react'
+89 silly reify ]
+90 silly reify mark retired [
+90 silly reify   'C:\\Users\\aryam\\Documents\\Codex\\2026-05-29\\files-mentioned-by-the-user-screenshot\\node_modules\\next'
+90 silly reify ]
+91 silly reify mark retired [
+91 silly reify   'C:\\Users\\aryam\\Documents\\Codex\\2026-05-29\\files-mentioned-by-the-user-screenshot\\node_modules\\@next\\swc-darwin-arm64'
+91 silly reify ]
+92 silly reify mark retired [
+92 silly reify   'C:\\Users\\aryam\\Documents\\Codex\\2026-05-29\\files-mentioned-by-the-user-screenshot\\node_modules\\@next\\swc-darwin-x64'
+92 silly reify ]
+93 silly reify mark retired [
+93 silly reify   'C:\\Users\\aryam\\Documents\\Codex\\2026-05-29\\files-mentioned-by-the-user-screenshot\\node_modules\\@next\\swc-linux-arm64-gnu'
+93 silly reify ]
+94 silly reify mark retired [
+94 silly reify   'C:\\Users\\aryam\\Documents\\Codex\\2026-05-29\\files-mentioned-by-the-user-screenshot\\node_modules\\@next\\swc-linux-arm64-musl'
+94 silly reify ]
+95 silly reify mark retired [
+95 silly reify   'C:\\Users\\aryam\\Documents\\Codex\\2026-05-29\\files-mentioned-by-the-user-screenshot\\node_modules\\@next\\swc-linux-x64-gnu'
+95 silly reify ]
+96 silly reify mark retired [
+96 silly reify   'C:\\Users\\aryam\\Documents\\Codex\\2026-05-29\\files-mentioned-by-the-user-screenshot\\node_modules\\@next\\swc-linux-x64-musl'
+96 silly reify ]
+97 silly reify mark retired [
+97 silly reify   'C:\\Users\\aryam\\Documents\\Codex\\2026-05-29\\files-mentioned-by-the-user-screenshot\\node_modules\\@next\\swc-win32-arm64-msvc'
+97 silly reify ]
+98 silly reify mark retired [
+98 silly reify   'C:\\Users\\aryam\\Documents\\Codex\\2026-05-29\\files-mentioned-by-the-user-screenshot\\node_modules\\autoprefixer',
+98 silly reify   'C:\\Users\\aryam\\Documents\\Codex\\2026-05-29\\files-mentioned-by-the-user-screenshot\\node_modules\\.bin\\autoprefixer',
+98 silly reify   'C:\\Users\\aryam\\Documents\\Codex\\2026-05-29\\files-mentioned-by-the-user-screenshot\\node_modules\\.bin\\autoprefixer.cmd',
+98 silly reify   'C:\\Users\\aryam\\Documents\\Codex\\2026-05-29\\files-mentioned-by-the-user-screenshot\\node_modules\\.bin\\autoprefixer.ps1'
+98 silly reify ]
+99 silly reify mark retired [
+99 silly reify   'C:\\Users\\aryam\\Documents\\Codex\\2026-05-29\\files-mentioned-by-the-user-screenshot\\node_modules\\baseline-browser-mapping',
+99 silly reify   'C:\\Users\\aryam\\Documents\\Codex\\2026-05-29\\files-mentioned-by-the-user-screenshot\\node_modules\\.bin\\baseline-browser-mapping',
+99 silly reify   'C:\\Users\\aryam\\Documents\\Codex\\2026-05-29\\files-mentioned-by-the-user-screenshot\\node_modules\\.bin\\baseline-browser-mapping.cmd',
+99 silly reify   'C:\\Users\\aryam\\Documents\\Codex\\2026-05-29\\files-mentioned-by-the-user-screenshot\\node_modules\\.bin\\baseline-browser-mapping.ps1'
+99 silly reify ]
+100 silly reify mark retired [
+100 silly reify   'C:\\Users\\aryam\\Documents\\Codex\\2026-05-29\\files-mentioned-by-the-user-screenshot\\node_modules\\browserslist',
+100 silly reify   'C:\\Users\\aryam\\Documents\\Codex\\2026-05-29\\files-mentioned-by-the-user-screenshot\\node_modules\\.bin\\browserslist',
+100 silly reify   'C:\\Users\\aryam\\Documents\\Codex\\2026-05-29\\files-mentioned-by-the-user-screenshot\\node_modules\\.bin\\browserslist.cmd',
+100 silly reify   'C:\\Users\\aryam\\Documents\\Codex\\2026-05-29\\files-mentioned-by-the-user-screenshot\\node_modules\\.bin\\browserslist.ps1'
+100 silly reify ]
+101 silly reify mark retired [
+101 silly reify   'C:\\Users\\aryam\\Documents\\Codex\\2026-05-29\\files-mentioned-by-the-user-screenshot\\node_modules\\cssesc',
+101 silly reify   'C:\\Users\\aryam\\Documents\\Codex\\2026-05-29\\files-mentioned-by-the-user-screenshot\\node_modules\\.bin\\cssesc',
+101 silly reify   'C:\\Users\\aryam\\Documents\\Codex\\2026-05-29\\files-mentioned-by-the-user-screenshot\\node_modules\\.bin\\cssesc.cmd',
+101 silly reify   'C:\\Users\\aryam\\Documents\\Codex\\2026-05-29\\files-mentioned-by-the-user-screenshot\\node_modules\\.bin\\cssesc.ps1'
+101 silly reify ]
+102 silly reify mark retired [
+102 silly reify   'C:\\Users\\aryam\\Documents\\Codex\\2026-05-29\\files-mentioned-by-the-user-screenshot\\node_modules\\jiti',
+102 silly reify   'C:\\Users\\aryam\\Documents\\Codex\\2026-05-29\\files-mentioned-by-the-user-screenshot\\node_modules\\.bin\\jiti',
+102 silly reify   'C:\\Users\\aryam\\Documents\\Codex\\2026-05-29\\files-mentioned-by-the-user-screenshot\\node_modules\\.bin\\jiti.cmd',
+102 silly reify   'C:\\Users\\aryam\\Documents\\Codex\\2026-05-29\\files-mentioned-by-the-user-screenshot\\node_modules\\.bin\\jiti.ps1'
+102 silly reify ]
+103 silly reify mark retired [
+103 silly reify   'C:\\Users\\aryam\\Documents\\Codex\\2026-05-29\\files-mentioned-by-the-user-screenshot\\node_modules\\nanoid',
+103 silly reify   'C:\\Users\\aryam\\Documents\\Codex\\2026-05-29\\files-mentioned-by-the-user-screenshot\\node_modules\\.bin\\nanoid',
+103 silly reify   'C:\\Users\\aryam\\Documents\\Codex\\2026-05-29\\files-mentioned-by-the-user-screenshot\\node_modules\\.bin\\nanoid.cmd',
+103 silly reify   'C:\\Users\\aryam\\Documents\\Codex\\2026-05-29\\files-mentioned-by-the-user-screenshot\\node_modules\\.bin\\nanoid.ps1'
+103 silly reify ]
+104 silly reify mark retired [
+104 silly reify   'C:\\Users\\aryam\\Documents\\Codex\\2026-05-29\\files-mentioned-by-the-user-screenshot\\node_modules\\resolve',
+104 silly reify   'C:\\Users\\aryam\\Documents\\Codex\\2026-05-29\\files-mentioned-by-the-user-screenshot\\node_modules\\.bin\\resolve',
+104 silly reify   'C:\\Users\\aryam\\Documents\\Codex\\2026-05-29\\files-mentioned-by-the-user-screenshot\\node_modules\\.bin\\resolve.cmd',
+104 silly reify   'C:\\Users\\aryam\\Documents\\Codex\\2026-05-29\\files-mentioned-by-the-user-screenshot\\node_modules\\.bin\\resolve.ps1'
+104 silly reify ]
+105 silly reify mark retired [
+105 silly reify   'C:\\Users\\aryam\\Documents\\Codex\\2026-05-29\\files-mentioned-by-the-user-screenshot\\node_modules\\semver',
+105 silly reify   'C:\\Users\\aryam\\Documents\\Codex\\2026-05-29\\files-mentioned-by-the-user-screenshot\\node_modules\\.bin\\semver',
+105 silly reify   'C:\\Users\\aryam\\Documents\\Codex\\2026-05-29\\files-mentioned-by-the-user-screenshot\\node_modules\\.bin\\semver.cmd',
+105 silly reify   'C:\\Users\\aryam\\Documents\\Codex\\2026-05-29\\files-mentioned-by-the-user-screenshot\\node_modules\\.bin\\semver.ps1'
+105 silly reify ]
+106 silly reify mark retired [
+106 silly reify   'C:\\Users\\aryam\\Documents\\Codex\\2026-05-29\\files-mentioned-by-the-user-screenshot\\node_modules\\sucrase',
+106 silly reify   'C:\\Users\\aryam\\Documents\\Codex\\2026-05-29\\files-mentioned-by-the-user-screenshot\\node_modules\\.bin\\sucrase',
+106 silly reify   'C:\\Users\\aryam\\Documents\\Codex\\2026-05-29\\files-mentioned-by-the-user-screenshot\\node_modules\\.bin\\sucrase.cmd',
+106 silly reify   'C:\\Users\\aryam\\Documents\\Codex\\2026-05-29\\files-mentioned-by-the-user-screenshot\\node_modules\\.bin\\sucrase.ps1',
+106 silly reify   'C:\\Users\\aryam\\Documents\\Codex\\2026-05-29\\files-mentioned-by-the-user-screenshot\\node_modules\\.bin\\sucrase-node',
+106 silly reify   'C:\\Users\\aryam\\Documents\\Codex\\2026-05-29\\files-mentioned-by-the-user-screenshot\\node_modules\\.bin\\sucrase-node.cmd',
+106 silly reify   'C:\\Users\\aryam\\Documents\\Codex\\2026-05-29\\files-mentioned-by-the-user-screenshot\\node_modules\\.bin\\sucrase-node.ps1'
+106 silly reify ]
+107 silly reify mark retired [
+107 silly reify   'C:\\Users\\aryam\\Documents\\Codex\\2026-05-29\\files-mentioned-by-the-user-screenshot\\node_modules\\tailwindcss',
+107 silly reify   'C:\\Users\\aryam\\Documents\\Codex\\2026-05-29\\files-mentioned-by-the-user-screenshot\\node_modules\\.bin\\tailwind',
+107 silly reify   'C:\\Users\\aryam\\Documents\\Codex\\2026-05-29\\files-mentioned-by-the-user-screenshot\\node_modules\\.bin\\tailwind.cmd',
+107 silly reify   'C:\\Users\\aryam\\Documents\\Codex\\2026-05-29\\files-mentioned-by-the-user-screenshot\\node_modules\\.bin\\tailwind.ps1',
+107 silly reify   'C:\\Users\\aryam\\Documents\\Codex\\2026-05-29\\files-mentioned-by-the-user-screenshot\\node_modules\\.bin\\tailwindcss',
+107 silly reify   'C:\\Users\\aryam\\Documents\\Codex\\2026-05-29\\files-mentioned-by-the-user-screenshot\\node_modules\\.bin\\tailwindcss.cmd',
+107 silly reify   'C:\\Users\\aryam\\Documents\\Codex\\2026-05-29\\files-mentioned-by-the-user-screenshot\\node_modules\\.bin\\tailwindcss.ps1'
+107 silly reify ]
+108 silly reify mark retired [
+108 silly reify   'C:\\Users\\aryam\\Documents\\Codex\\2026-05-29\\files-mentioned-by-the-user-screenshot\\node_modules\\typescript',
+108 silly reify   'C:\\Users\\aryam\\Documents\\Codex\\2026-05-29\\files-mentioned-by-the-user-screenshot\\node_modules\\.bin\\tsc',
+108 silly reify   'C:\\Users\\aryam\\Documents\\Codex\\2026-05-29\\files-mentioned-by-the-user-screenshot\\node_modules\\.bin\\tsc.cmd',
+108 silly reify   'C:\\Users\\aryam\\Documents\\Codex\\2026-05-29\\files-mentioned-by-the-user-screenshot\\node_modules\\.bin\\tsc.ps1',
+108 silly reify   'C:\\Users\\aryam\\Documents\\Codex\\2026-05-29\\files-mentioned-by-the-user-screenshot\\node_modules\\.bin\\tsserver',
+108 silly reify   'C:\\Users\\aryam\\Documents\\Codex\\2026-05-29\\files-mentioned-by-the-user-screenshot\\node_modules\\.bin\\tsserver.cmd',
+108 silly reify   'C:\\Users\\aryam\\Documents\\Codex\\2026-05-29\\files-mentioned-by-the-user-screenshot\\node_modules\\.bin\\tsserver.ps1'
+108 silly reify ]
+109 silly reify mark retired [
+109 silly reify   'C:\\Users\\aryam\\Documents\\Codex\\2026-05-29\\files-mentioned-by-the-user-screenshot\\node_modules\\update-browserslist-db',
+109 silly reify   'C:\\Users\\aryam\\Documents\\Codex\\2026-05-29\\files-mentioned-by-the-user-screenshot\\node_modules\\.bin\\update-browserslist-db',
+109 silly reify   'C:\\Users\\aryam\\Documents\\Codex\\2026-05-29\\files-mentioned-by-the-user-screenshot\\node_modules\\.bin\\update-browserslist-db.cmd',
+109 silly reify   'C:\\Users\\aryam\\Documents\\Codex\\2026-05-29\\files-mentioned-by-the-user-screenshot\\node_modules\\.bin\\update-browserslist-db.ps1'
+109 silly reify ]
+110 silly reify mark retired [
+110 silly reify   'C:\\Users\\aryam\\Documents\\Codex\\2026-05-29\\files-mentioned-by-the-user-screenshot\\node_modules\\@emnapi\\runtime'
+110 silly reify ]
+111 silly reify moves {
+111 silly reify   'C:\\Users\\aryam\\Documents\\Codex\\2026-05-29\\files-mentioned-by-the-user-screenshot\\node_modules\\fsevents': 'C:\\Users\\aryam\\Documents\\Codex\\2026-05-29\\files-mentioned-by-the-user-screenshot\\node_modules\\.fsevents-vzFYzEN7',
+111 silly reify   'C:\\Users\\aryam\\Documents\\Codex\\2026-05-29\\files-mentioned-by-the-user-screenshot\\node_modules\\lucide-react': 'C:\\Users\\aryam\\Documents\\Codex\\2026-05-29\\files-mentioned-by-the-user-screenshot\\node_modules\\.lucide-react-h6niCA5a',
+111 silly reify   'C:\\Users\\aryam\\Documents\\Codex\\2026-05-29\\files-mentioned-by-the-user-screenshot\\node_modules\\next': 'C:\\Users\\aryam\\Documents\\Codex\\2026-05-29\\files-mentioned-by-the-user-screenshot\\node_modules\\.next-xlL3AFOn',
+111 silly reify   'C:\\Users\\aryam\\Documents\\Codex\\2026-05-29\\files-mentioned-by-the-user-screenshot\\node_modules\\@next\\swc-darwin-arm64': 'C:\\Users\\aryam\\Documents\\Codex\\2026-05-29\\files-mentioned-by-the-user-screenshot\\node_modules\\@next\\.swc-darwin-arm64-SMvzEToK',
+111 silly reify   'C:\\Users\\aryam\\Documents\\Codex\\2026-05-29\\files-mentioned-by-the-user-screenshot\\node_modules\\@next\\swc-darwin-x64': 'C:\\Users\\aryam\\Documents\\Codex\\2026-05-29\\files-mentioned-by-the-user-screenshot\\node_modules\\@next\\.swc-darwin-x64-wtWS08ES',
+111 silly reify   'C:\\Users\\aryam\\Documents\\Codex\\2026-05-29\\files-mentioned-by-the-user-screenshot\\node_modules\\@next\\swc-linux-arm64-gnu': 'C:\\Users\\aryam\\Documents\\Codex\\2026-05-29\\files-mentioned-by-the-user-screenshot\\node_modules\\@next\\.swc-linux-arm64-gnu-K6Rxo9Fx',
+111 silly reify   'C:\\Users\\aryam\\Documents\\Codex\\2026-05-29\\files-mentioned-by-the-user-screenshot\\node_modules\\@next\\swc-linux-arm64-musl': 'C:\\Users\\aryam\\Documents\\Codex\\2026-05-29\\files-mentioned-by-the-user-screenshot\\node_modules\\@next\\.swc-linux-arm64-musl-gZrOlPAF',
+111 silly reify   'C:\\Users\\aryam\\Documents\\Codex\\2026-05-29\\files-mentioned-by-the-user-screenshot\\node_modules\\@next\\swc-linux-x64-gnu': 'C:\\Users\\aryam\\Documents\\Codex\\2026-05-29\\files-mentioned-by-the-user-screenshot\\node_modules\\@next\\.swc-linux-x64-gnu-qotiHlgs',
+111 silly reify   'C:\\Users\\aryam\\Documents\\Codex\\2026-05-29\\files-mentioned-by-the-user-screenshot\\node_modules\\@next\\swc-linux-x64-musl': 'C:\\Users\\aryam\\Documents\\Codex\\2026-05-29\\files-mentioned-by-the-user-screenshot\\node_modules\\@next\\.swc-linux-x64-musl-cbIN6kyP',
+111 silly reify   'C:\\Users\\aryam\\Documents\\Codex\\2026-05-29\\files-mentioned-by-the-user-screenshot\\node_modules\\@next\\swc-win32-arm64-msvc': 'C:\\Users\\aryam\\Documents\\Codex\\2026-05-29\\files-mentioned-by-the-user-screenshot\\node_modules\\@next\\.swc-win32-arm64-msvc-R7JBszbc',
+111 silly reify   'C:\\Users\\aryam\\Documents\\Codex\\2026-05-29\\files-mentioned-by-the-user-screenshot\\node_modules\\autoprefixer': 'C:\\Users\\aryam\\Documents\\Codex\\2026-05-29\\files-mentioned-by-the-user-screenshot\\node_modules\\.autoprefixer-YmLEaqVT',
+111 silly reify   'C:\\Users\\aryam\\Documents\\Codex\\2026-05-29\\files-mentioned-by-the-user-screenshot\\node_modules\\.bin\\autoprefixer': 'C:\\Users\\aryam\\Documents\\Codex\\2026-05-29\\files-mentioned-by-the-user-screenshot\\node_modules\\.bin\\.autoprefixer-wR1Bibd5',
+111 silly reify   'C:\\Users\\aryam\\Documents\\Codex\\2026-05-29\\files-mentioned-by-the-user-screenshot\\node_modules\\.bin\\autoprefixer.cmd': 'C:\\Users\\aryam\\Documents\\Codex\\2026-05-29\\files-mentioned-by-the-user-screenshot\\node_modules\\.bin\\.autoprefixer.cmd-X7Z7QpP4',
+111 silly reify   'C:\\Users\\aryam\\Documents\\Codex\\2026-05-29\\files-mentioned-by-the-user-screenshot\\node_modules\\.bin\\autoprefixer.ps1': 'C:\\Users\\aryam\\Documents\\Codex\\2026-05-29\\files-mentioned-by-the-user-screenshot\\node_modules\\.bin\\.autoprefixer.ps1-CP7WBW2g',
+111 silly reify   'C:\\Users\\aryam\\Documents\\Codex\\2026-05-29\\files-mentioned-by-the-user-screenshot\\node_modules\\baseline-browser-mapping': 'C:\\Users\\aryam\\Documents\\Codex\\2026-05-29\\files-mentioned-by-the-user-screenshot\\node_modules\\.baseline-browser-mapping-P2PA9Q2J',
+111 silly reify   'C:\\Users\\aryam\\Documents\\Codex\\2026-05-29\\files-mentioned-by-the-user-screenshot\\node_modules\\.bin\\baseline-browser-mapping': 'C:\\Users\\aryam\\Documents\\Codex\\2026-05-29\\files-mentioned-by-the-user-screenshot\\node_modules\\.bin\\.baseline-browser-mapping-9vu7174S',
+111 silly reify   'C:\\Users\\aryam\\Documents\\Codex\\2026-05-29\\files-mentioned-by-the-user-screenshot\\node_modules\\.bin\\baseline-browser-mapping.cmd': 'C:\\Users\\aryam\\Documents\\Codex\\2026-05-29\\files-mentioned-by-the-user-screenshot\\node_modules\\.bin\\.baseline-browser-mapping.cmd-l6dGXjCw',
+111 silly reify   'C:\\Users\\aryam\\Documents\\Codex\\2026-05-29\\files-mentioned-by-the-user-screenshot\\node_modules\\.bin\\baseline-browser-mapping.ps1': 'C:\\Users\\aryam\\Documents\\Codex\\2026-05-29\\files-mentioned-by-the-user-screenshot\\node_modules\\.bin\\.baseline-browser-mapping.ps1-my2c9DvE',
+111 silly reify   'C:\\Users\\aryam\\Documents\\Codex\\2026-05-29\\files-mentioned-by-the-user-screenshot\\node_modules\\browserslist': 'C:\\Users\\aryam\\Documents\\Codex\\2026-05-29\\files-mentioned-by-the-user-screenshot\\node_modules\\.browserslist-2RkXSmKX',
+111 silly reify   'C:\\Users\\aryam\\Documents\\Codex\\2026-05-29\\files-mentioned-by-the-user-screenshot\\node_modules\\.bin\\browserslist': 'C:\\Users\\aryam\\Documents\\Codex\\2026-05-29\\files-mentioned-by-the-user-screenshot\\node_modules\\.bin\\.browserslist-5ByukBrz',
+111 silly reify   'C:\\Users\\aryam\\Documents\\Codex\\2026-05-29\\files-mentioned-by-the-user-screenshot\\node_modules\\.bin\\browserslist.cmd': 'C:\\Users\\aryam\\Documents\\Codex\\2026-05-29\\files-mentioned-by-the-user-screenshot\\node_modules\\.bin\\.browserslist.cmd-LdQ9pzr3',
+111 silly reify   'C:\\Users\\aryam\\Documents\\Codex\\2026-05-29\\files-mentioned-by-the-user-screenshot\\node_modules\\.bin\\browserslist.ps1': 'C:\\Users\\aryam\\Documents\\Codex\\2026-05-29\\files-mentioned-by-the-user-screenshot\\node_modules\\.bin\\.browserslist.ps1-0wMyUfOA',
+111 silly reify   'C:\\Users\\aryam\\Documents\\Codex\\2026-05-29\\files-mentioned-by-the-user-screenshot\\node_modules\\cssesc': 'C:\\Users\\aryam\\Documents\\Codex\\2026-05-29\\files-mentioned-by-the-user-screenshot\\node_modules\\.cssesc-YZmFq7N9',
+111 silly reify   'C:\\Users\\aryam\\Documents\\Codex\\2026-05-29\\files-mentioned-by-the-user-screenshot\\node_modules\\.bin\\cssesc': 'C:\\Users\\aryam\\Documents\\Codex\\2026-05-29\\files-mentioned-by-the-user-screenshot\\node_modules\\.bin\\.cssesc-w5PwVY8z',
+111 silly reify   'C:\\Users\\aryam\\Documents\\Codex\\2026-05-29\\files-mentioned-by-the-user-screenshot\\node_modules\\.bin\\cssesc.cmd': 'C:\\Users\\aryam\\Documents\\Codex\\2026-05-29\\files-mentioned-by-the-user-screenshot\\node_modules\\.bin\\.cssesc.cmd-z1u25bzK',
+111 silly reify   'C:\\Users\\aryam\\Documents\\Codex\\2026-05-29\\files-mentioned-by-the-user-screenshot\\node_modules\\.bin\\cssesc.ps1': 'C:\\Users\\aryam\\Documents\\Codex\\2026-05-29\\files-mentioned-by-the-user-screenshot\\node_modules\\.bin\\.cssesc.ps1-YCb28vXg',
+111 silly reify   'C:\\Users\\aryam\\Documents\\Codex\\2026-05-29\\files-mentioned-by-the-user-screenshot\\node_modules\\jiti': 'C:\\Users\\aryam\\Documents\\Codex\\2026-05-29\\files-mentioned-by-the-user-screenshot\\node_modules\\.jiti-wXY1ADfC',
+111 silly reify   'C:\\Users\\aryam\\Documents\\Codex\\2026-05-29\\files-mentioned-by-the-user-screenshot\\node_modules\\.bin\\jiti': 'C:\\Users\\aryam\\Documents\\Codex\\2026-05-29\\files-mentioned-by-the-user-screenshot\\node_modules\\.bin\\.jiti-o3pkNSs7',
+111 silly reify   'C:\\Users\\aryam\\Documents\\Codex\\2026-05-29\\files-mentioned-by-the-user-screenshot\\node_modules\\.bin\\jiti.cmd': 'C:\\Users\\aryam\\Documents\\Codex\\2026-05-29\\files-mentioned-by-the-user-screenshot\\node_modules\\.bin\\.jiti.cmd-8rUOAa8a',
+111 silly reify   'C:\\Users\\aryam\\Documents\\Codex\\2026-05-29\\files-mentioned-by-the-user-screenshot\\node_modules\\.bin\\jiti.ps1': 'C:\\Users\\aryam\\Documents\\Codex\\2026-05-29\\files-mentioned-by-the-user-screenshot\\node_modules\\.bin\\.jiti.ps1-kxmZJ94T',
+111 silly reify   'C:\\Users\\aryam\\Documents\\Codex\\2026-05-29\\files-mentioned-by-the-user-screenshot\\node_modules\\nanoid': 'C:\\Users\\aryam\\Documents\\Codex\\2026-05-29\\files-mentioned-by-the-user-screenshot\\node_modules\\.nanoid-esFraZRX',
+111 silly reify   'C:\\Users\\aryam\\Documents\\Codex\\2026-05-29\\files-mentioned-by-the-user-screenshot\\node_modules\\.bin\\nanoid': 'C:\\Users\\aryam\\Documents\\Codex\\2026-05-29\\files-mentioned-by-the-user-screenshot\\node_modules\\.bin\\.nanoid-MT5W5i6d',
+111 silly reify   'C:\\Users\\aryam\\Documents\\Codex\\2026-05-29\\files-mentioned-by-the-user-screenshot\\node_modules\\.bin\\nanoid.cmd': 'C:\\Users\\aryam\\Documents\\Codex\\2026-05-29\\files-mentioned-by-the-user-screenshot\\node_modules\\.bin\\.nanoid.cmd-jHcqSny6',
+111 silly reify   'C:\\Users\\aryam\\Documents\\Codex\\2026-05-29\\files-mentioned-by-the-user-screenshot\\node_modules\\.bin\\nanoid.ps1': 'C:\\Users\\aryam\\Documents\\Codex\\2026-05-29\\files-mentioned-by-the-user-screenshot\\node_modules\\.bin\\.nanoid.ps1-3Pio0j5H',
+111 silly reify   'C:\\Users\\aryam\\Documents\\Codex\\2026-05-29\\files-mentioned-by-the-user-screenshot\\node_modules\\resolve': 'C:\\Users\\aryam\\Documents\\Codex\\2026-05-29\\files-mentioned-by-the-user-screenshot\\node_modules\\.resolve-q7zoICI9',
+111 silly reify   'C:\\Users\\aryam\\Documents\\Codex\\2026-05-29\\files-mentioned-by-the-user-screenshot\\node_modules\\.bin\\resolve': 'C:\\Users\\aryam\\Documents\\Codex\\2026-05-29\\files-mentioned-by-the-user-screenshot\\node_modules\\.bin\\.resolve-LAf1D4vt',
+111 silly reify   'C:\\Users\\aryam\\Documents\\Codex\\2026-05-29\\files-mentioned-by-the-user-screenshot\\node_modules\\.bin\\resolve.cmd': 'C:\\Users\\aryam\\Documents\\Codex\\2026-05-29\\files-mentioned-by-the-user-screenshot\\node_modules\\.bin\\.resolve.cmd-ZIjZMs7o',
+111 silly reify   'C:\\Users\\aryam\\Documents\\Codex\\2026-05-29\\files-mentioned-by-the-user-screenshot\\node_modules\\.bin\\resolve.ps1': 'C:\\Users\\aryam\\Documents\\Codex\\2026-05-29\\files-mentioned-by-the-user-screenshot\\node_modules\\.bin\\.resolve.ps1-bNYb1zRR',
+111 silly reify   'C:\\Users\\aryam\\Documents\\Codex\\2026-05-29\\files-mentioned-by-the-user-screenshot\\node_modules\\semver': 'C:\\Users\\aryam\\Documents\\Codex\\2026-05-29\\files-mentioned-by-the-user-screenshot\\node_modules\\.semver-4Wnituml',
+111 silly reify   'C:\\Users\\aryam\\Documents\\Codex\\2026-05-29\\files-mentioned-by-the-user-screenshot\\node_modules\\.bin\\semver': 'C:\\Users\\aryam\\Documents\\Codex\\2026-05-29\\files-mentioned-by-the-user-screenshot\\node_modules\\.bin\\.semver-GjQnwMDc',
+111 silly reify   'C:\\Users\\aryam\\Documents\\Codex\\2026-05-29\\files-mentioned-by-the-user-screenshot\\node_modules\\.bin\\semver.cmd': 'C:\\Users\\aryam\\Documents\\Codex\\2026-05-29\\files-mentioned-by-the-user-screenshot\\node_modules\\.bin\\.semver.cmd-xan8GoeD',
+111 silly reify   'C:\\Users\\aryam\\Documents\\Codex\\2026-05-29\\files-mentioned-by-the-user-screenshot\\node_modules\\.bin\\semver.ps1': 'C:\\Users\\aryam\\Documents\\Codex\\2026-05-29\\files-mentioned-by-the-user-screenshot\\node_modules\\.bin\\.semver.ps1-PgHMZmN2',
+111 silly reify   'C:\\Users\\aryam\\Documents\\Codex\\2026-05-29\\files-mentioned-by-the-user-screenshot\\node_modules\\sucrase': 'C:\\Users\\aryam\\Documents\\Codex\\2026-05-29\\files-mentioned-by-the-user-screenshot\\node_modules\\.sucrase-r0tgbyUe',
+111 silly reify   'C:\\Users\\aryam\\Documents\\Codex\\2026-05-29\\files-mentioned-by-the-user-screenshot\\node_modules\\.bin\\sucrase': 'C:\\Users\\aryam\\Documents\\Codex\\2026-05-29\\files-mentioned-by-the-user-screenshot\\node_modules\\.bin\\.sucrase-4KSj9BXb',
+111 silly reify   'C:\\Users\\aryam\\Documents\\Codex\\2026-05-29\\files-mentioned-by-the-user-screenshot\\node_modules\\.bin\\sucrase.cmd': 'C:\\Users\\aryam\\Documents\\Codex\\2026-05-29\\files-mentioned-by-the-user-screenshot\\node_modules\\.bin\\.sucrase.cmd-lfKMUf4i',
+111 silly reify   'C:\\Users\\aryam\\Documents\\Codex\\2026-05-29\\files-mentioned-by-the-user-screenshot\\node_modules\\.bin\\sucrase.ps1': 'C:\\Users\\aryam\\Documents\\Codex\\2026-05-29\\files-mentioned-by-the-user-screenshot\\node_modules\\.bin\\.sucrase.ps1-YAsqzCpg',
+111 silly reify   'C:\\Users\\aryam\\Documents\\Codex\\2026-05-29\\files-mentioned-by-the-user-screenshot\\node_modules\\.bin\\sucrase-node': 'C:\\Users\\aryam\\Documents\\Codex\\2026-05-29\\files-mentioned-by-the-user-screenshot\\node_modules\\.bin\\.sucrase-node-q7O5Wd6i',
+111 silly reify   'C:\\Users\\aryam\\Documents\\Codex\\2026-05-29\\files-mentioned-by-the-user-screenshot\\node_modules\\.bin\\sucrase-node.cmd': 'C:\\Users\\aryam\\Documents\\Codex\\2026-05-29\\files-mentioned-by-the-user-screenshot\\node_modules\\.bin\\.sucrase-node.cmd-kbV4TEGo',
+111 silly reify   'C:\\Users\\aryam\\Documents\\Codex\\2026-05-29\\files-mentioned-by-the-user-screenshot\\node_modules\\.bin\\sucrase-node.ps1': 'C:\\Users\\aryam\\Documents\\Codex\\2026-05-29\\files-mentioned-by-the-user-screenshot\\node_modules\\.bin\\.sucrase-node.ps1-lM1yKFiK',
+111 silly reify   'C:\\Users\\aryam\\Documents\\Codex\\2026-05-29\\files-mentioned-by-the-user-screenshot\\node_modules\\tailwindcss': 'C:\\Users\\aryam\\Documents\\Codex\\2026-05-29\\files-mentioned-by-the-user-screenshot\\node_modules\\.tailwindcss-C3WDqYdB',
+111 silly reify   'C:\\Users\\aryam\\Documents\\Codex\\2026-05-29\\files-mentioned-by-the-user-screenshot\\node_modules\\.bin\\tailwind': 'C:\\Users\\aryam\\Documents\\Codex\\2026-05-29\\files-mentioned-by-the-user-screenshot\\node_modules\\.bin\\.tailwind-E561Pt6f',
+111 silly reify   'C:\\Users\\aryam\\Documents\\Codex\\2026-05-29\\files-mentioned-by-the-user-screenshot\\node_modules\\.bin\\tailwind.cmd': 'C:\\Users\\aryam\\Documents\\Codex\\2026-05-29\\files-mentioned-by-the-user-screenshot\\node_modules\\.bin\\.tailwind.cmd-AzabxbBp',
+111 silly reify   'C:\\Users\\aryam\\Documents\\Codex\\2026-05-29\\files-mentioned-by-the-user-screenshot\\node_modules\\.bin\\tailwind.ps1': 'C:\\Users\\aryam\\Documents\\Codex\\2026-05-29\\files-mentioned-by-the-user-screenshot\\node_modules\\.bin\\.tailwind.ps1-3TSfHdyu',
+111 silly reify   'C:\\Users\\aryam\\Documents\\Codex\\2026-05-29\\files-mentioned-by-the-user-screenshot\\node_modules\\.bin\\tailwindcss': 'C:\\Users\\aryam\\Documents\\Codex\\2026-05-29\\files-mentioned-by-the-user-screenshot\\node_modules\\.bin\\.tailwindcss-QPy434cJ',
+111 silly reify   'C:\\Users\\aryam\\Documents\\Codex\\2026-05-29\\files-mentioned-by-the-user-screenshot\\node_modules\\.bin\\tailwindcss.cmd': 'C:\\Users\\aryam\\Documents\\Codex\\2026-05-29\\files-mentioned-by-the-user-screenshot\\node_modules\\.bin\\.tailwindcss.cmd-P6DJ2YCy',
+111 silly reify   'C:\\Users\\aryam\\Documents\\Codex\\2026-05-29\\files-mentioned-by-the-user-screenshot\\node_modules\\.bin\\tailwindcss.ps1': 'C:\\Users\\aryam\\Documents\\Codex\\2026-05-29\\files-mentioned-by-the-user-screenshot\\node_modules\\.bin\\.tailwindcss.ps1-AoXzMebk',
+111 silly reify   'C:\\Users\\aryam\\Documents\\Codex\\2026-05-29\\files-mentioned-by-the-user-screenshot\\node_modules\\typescript': 'C:\\Users\\aryam\\Documents\\Codex\\2026-05-29\\files-mentioned-by-the-user-screenshot\\node_modules\\.typescript-rsVndQBv',
+111 silly reify   'C:\\Users\\aryam\\Documents\\Codex\\2026-05-29\\files-mentioned-by-the-user-screenshot\\node_modules\\.bin\\tsc': 'C:\\Users\\aryam\\Documents\\Codex\\2026-05-29\\files-mentioned-by-the-user-screenshot\\node_modules\\.bin\\.tsc-ZRZOqXJY',
+111 silly reify   'C:\\Users\\aryam\\Documents\\Codex\\2026-05-29\\files-mentioned-by-the-user-screenshot\\node_modules\\.bin\\tsc.cmd': 'C:\\Users\\aryam\\Documents\\Codex\\2026-05-29\\files-mentioned-by-the-user-screenshot\\node_modules\\.bin\\.tsc.cmd-bDpYD3n9',
+111 silly reify   'C:\\Users\\aryam\\Documents\\Codex\\2026-05-29\\files-mentioned-by-the-user-screenshot\\node_modules\\.bin\\tsc.ps1': 'C:\\Users\\aryam\\Documents\\Codex\\2026-05-29\\files-mentioned-by-the-user-screenshot\\node_modules\\.bin\\.tsc.ps1-QcX5izYC',
+111 silly reify   'C:\\Users\\aryam\\Documents\\Codex\\2026-05-29\\files-mentioned-by-the-user-screenshot\\node_modules\\.bin\\tsserver': 'C:\\Users\\aryam\\Documents\\Codex\\2026-05-29\\files-mentioned-by-the-user-screenshot\\node_modules\\.bin\\.tsserver-seiJsheH',
+111 silly reify   'C:\\Users\\aryam\\Documents\\Codex\\2026-05-29\\files-mentioned-by-the-user-screenshot\\node_modules\\.bin\\tsserver.cmd': 'C:\\Users\\aryam\\Documents\\Codex\\2026-05-29\\files-mentioned-by-the-user-screenshot\\node_modules\\.bin\\.tsserver.cmd-K8VtwZPA',
+111 silly reify   'C:\\Users\\aryam\\Documents\\Codex\\2026-05-29\\files-mentioned-by-the-user-screenshot\\node_modules\\.bin\\tsserver.ps1': 'C:\\Users\\aryam\\Documents\\Codex\\2026-05-29\\files-mentioned-by-the-user-screenshot\\node_modules\\.bin\\.tsserver.ps1-uvnvBs5a',
+111 silly reify   'C:\\Users\\aryam\\Documents\\Codex\\2026-05-29\\files-mentioned-by-the-user-screenshot\\node_modules\\update-browserslist-db': 'C:\\Users\\aryam\\Documents\\Codex\\2026-05-29\\files-mentioned-by-the-user-screenshot\\node_modules\\.update-browserslist-db-O85lqF0b',
+111 silly reify   'C:\\Users\\aryam\\Documents\\Codex\\2026-05-29\\files-mentioned-by-the-user-screenshot\\node_modules\\.bin\\update-browserslist-db': 'C:\\Users\\aryam\\Documents\\Codex\\2026-05-29\\files-mentioned-by-the-user-screenshot\\node_modules\\.bin\\.update-browserslist-db-fDu83mQz',
+111 silly reify   'C:\\Users\\aryam\\Documents\\Codex\\2026-05-29\\files-mentioned-by-the-user-screenshot\\node_modules\\.bin\\update-browserslist-db.cmd': 'C:\\Users\\aryam\\Documents\\Codex\\2026-05-29\\files-mentioned-by-the-user-screenshot\\node_modules\\.bin\\.update-browserslist-db.cmd-htpTc34s',
+111 silly reify   'C:\\Users\\aryam\\Documents\\Codex\\2026-05-29\\files-mentioned-by-the-user-screenshot\\node_modules\\.bin\\update-browserslist-db.ps1': 'C:\\Users\\aryam\\Documents\\Codex\\2026-05-29\\files-mentioned-by-the-user-screenshot\\node_modules\\.bin\\.update-browserslist-db.ps1-d2E0SDoz',
+111 silly reify   'C:\\Users\\aryam\\Documents\\Codex\\2026-05-29\\files-mentioned-by-the-user-screenshot\\node_modules\\@emnapi\\runtime': 'C:\\Users\\aryam\\Documents\\Codex\\2026-05-29\\files-mentioned-by-the-user-screenshot\\node_modules\\@emnapi\\.runtime-HWrZLEfI'
+111 silly reify }
+112 verbose reify failed optional dependency C:\Users\aryam\Documents\Codex\2026-05-29\files-mentioned-by-the-user-screenshot\node_modules\chokidar\node_modules\fsevents
+113 silly reify mark deleted [
+113 silly reify   'C:\\Users\\aryam\\Documents\\Codex\\2026-05-29\\files-mentioned-by-the-user-screenshot\\node_modules\\chokidar\\node_modules\\fsevents'
+113 silly reify ]
+114 verbose reify failed optional dependency C:\Users\aryam\Documents\Codex\2026-05-29\files-mentioned-by-the-user-screenshot\node_modules\@next\swc-win32-arm64-msvc
+115 silly reify mark deleted [
+115 silly reify   'C:\\Users\\aryam\\Documents\\Codex\\2026-05-29\\files-mentioned-by-the-user-screenshot\\node_modules\\@next\\swc-win32-arm64-msvc'
+115 silly reify ]
+116 verbose reify failed optional dependency C:\Users\aryam\Documents\Codex\2026-05-29\files-mentioned-by-the-user-screenshot\node_modules\@next\swc-linux-x64-musl
+117 silly reify mark deleted [
+117 silly reify   'C:\\Users\\aryam\\Documents\\Codex\\2026-05-29\\files-mentioned-by-the-user-screenshot\\node_modules\\@next\\swc-linux-x64-musl'
+117 silly reify ]
+118 verbose reify failed optional dependency C:\Users\aryam\Documents\Codex\2026-05-29\files-mentioned-by-the-user-screenshot\node_modules\@next\swc-linux-x64-gnu
+119 silly reify mark deleted [
+119 silly reify   'C:\\Users\\aryam\\Documents\\Codex\\2026-05-29\\files-mentioned-by-the-user-screenshot\\node_modules\\@next\\swc-linux-x64-gnu'
+119 silly reify ]
+120 verbose reify failed optional dependency C:\Users\aryam\Documents\Codex\2026-05-29\files-mentioned-by-the-user-screenshot\node_modules\@next\swc-linux-arm64-musl
+121 silly reify mark deleted [
+121 silly reify   'C:\\Users\\aryam\\Documents\\Codex\\2026-05-29\\files-mentioned-by-the-user-screenshot\\node_modules\\@next\\swc-linux-arm64-musl'
+121 silly reify ]
+122 verbose reify failed optional dependency C:\Users\aryam\Documents\Codex\2026-05-29\files-mentioned-by-the-user-screenshot\node_modules\@next\swc-linux-arm64-gnu
+123 silly reify mark deleted [
+123 silly reify   'C:\\Users\\aryam\\Documents\\Codex\\2026-05-29\\files-mentioned-by-the-user-screenshot\\node_modules\\@next\\swc-linux-arm64-gnu'
+123 silly reify ]
+124 verbose reify failed optional dependency C:\Users\aryam\Documents\Codex\2026-05-29\files-mentioned-by-the-user-screenshot\node_modules\@next\swc-darwin-x64
+125 silly reify mark deleted [
+125 silly reify   'C:\\Users\\aryam\\Documents\\Codex\\2026-05-29\\files-mentioned-by-the-user-screenshot\\node_modules\\@next\\swc-darwin-x64'
+125 silly reify ]
+126 verbose reify failed optional dependency C:\Users\aryam\Documents\Codex\2026-05-29\files-mentioned-by-the-user-screenshot\node_modules\@next\swc-darwin-arm64
+127 silly reify mark deleted [
+127 silly reify   'C:\\Users\\aryam\\Documents\\Codex\\2026-05-29\\files-mentioned-by-the-user-screenshot\\node_modules\\@next\\swc-darwin-arm64'
+127 silly reify ]
+128 silly packumentCache corgi:https://registry.npmjs.org/update-browserslist-db cache-miss
+129 silly packumentCache corgi:https://registry.npmjs.org/tailwindcss cache-miss
+130 silly packumentCache corgi:https://registry.npmjs.org/typescript cache-miss
+131 silly packumentCache corgi:https://registry.npmjs.org/sucrase cache-miss
+132 silly packumentCache corgi:https://registry.npmjs.org/semver cache-miss
+133 silly packumentCache corgi:https://registry.npmjs.org/resolve cache-miss
+134 silly packumentCache corgi:https://registry.npmjs.org/nanoid cache-miss
+135 silly packumentCache corgi:https://registry.npmjs.org/jiti cache-miss
+136 silly packumentCache corgi:https://registry.npmjs.org/browserslist cache-miss
+137 silly packumentCache corgi:https://registry.npmjs.org/baseline-browser-mapping cache-miss
+138 silly packumentCache corgi:https://registry.npmjs.org/autoprefixer cache-miss
+139 silly packumentCache corgi:https://registry.npmjs.org/cssesc cache-miss
+140 http fetch GET 200 https://registry.npmjs.org/sucrase 914ms (cache miss)
+141 silly packumentCache corgi:https://registry.npmjs.org/sucrase set size:undefined disposed:false
+142 http fetch GET 200 https://registry.npmjs.org/sucrase/-/sucrase-3.35.1.tgz 139ms (cache hit)
+143 http fetch GET 200 https://registry.npmjs.org/update-browserslist-db 1144ms (cache miss)
+144 silly packumentCache corgi:https://registry.npmjs.org/update-browserslist-db set size:undefined disposed:false
+145 http fetch GET 200 https://registry.npmjs.org/nanoid 1155ms (cache miss)
+146 silly packumentCache corgi:https://registry.npmjs.org/nanoid set size:undefined disposed:false
+147 http fetch GET 200 https://registry.npmjs.org/update-browserslist-db/-/update-browserslist-db-1.2.3.tgz 44ms (cache hit)
+148 http fetch GET 200 https://registry.npmjs.org/nanoid/-/nanoid-3.3.12.tgz 4900ms (cache hit)
+149 http fetch GET 200 https://registry.npmjs.org/semver 6060ms (cache miss)
+150 silly packumentCache corgi:https://registry.npmjs.org/semver set size:undefined disposed:false
+151 http fetch GET 200 https://registry.npmjs.org/cssesc 10091ms (cache miss)
+152 silly packumentCache corgi:https://registry.npmjs.org/cssesc set size:undefined disposed:false
+153 http fetch GET 200 https://registry.npmjs.org/semver/-/semver-7.8.1.tgz 4142ms (cache hit)
+154 http fetch GET 200 https://registry.npmjs.org/baseline-browser-mapping 10203ms (cache miss)
+155 silly packumentCache corgi:https://registry.npmjs.org/baseline-browser-mapping set size:undefined disposed:false
+156 http fetch GET 200 https://registry.npmjs.org/resolve 10253ms (cache miss)
+157 silly packumentCache corgi:https://registry.npmjs.org/resolve set size:undefined disposed:false
+158 http fetch GET 200 https://registry.npmjs.org/cssesc/-/cssesc-3.0.0.tgz 160ms (cache hit)
+159 http fetch GET 200 https://registry.npmjs.org/autoprefixer 10255ms (cache miss)
+160 silly packumentCache corgi:https://registry.npmjs.org/autoprefixer set size:undefined disposed:false
+161 http fetch GET 200 https://registry.npmjs.org/jiti 10281ms (cache miss)
+162 silly packumentCache corgi:https://registry.npmjs.org/jiti set size:undefined disposed:false
+163 http fetch GET 200 https://registry.npmjs.org/baseline-browser-mapping/-/baseline-browser-mapping-2.10.32.tgz 95ms (cache hit)
+164 http fetch GET 200 https://registry.npmjs.org/browserslist 10302ms (cache miss)
+165 silly packumentCache corgi:https://registry.npmjs.org/browserslist set size:undefined disposed:false
+166 http fetch GET 200 https://registry.npmjs.org/resolve/-/resolve-1.22.12.tgz 79ms (cache hit)
+167 http fetch GET 200 https://registry.npmjs.org/autoprefixer/-/autoprefixer-10.5.0.tgz 76ms (cache hit)
+168 http fetch GET 200 https://registry.npmjs.org/jiti/-/jiti-1.21.7.tgz 100ms (cache hit)
+169 http fetch GET 200 https://registry.npmjs.org/browserslist/-/browserslist-4.28.2.tgz 85ms (cache hit)
+170 http fetch GET 200 https://registry.npmjs.org/tailwindcss 10762ms (cache miss)
+171 silly packumentCache corgi:https://registry.npmjs.org/tailwindcss set size:undefined disposed:false
+172 http fetch GET 200 https://registry.npmjs.org/tailwindcss/-/tailwindcss-3.4.19.tgz 83ms (cache hit)
+173 http fetch GET 200 https://registry.npmjs.org/typescript 11023ms (cache miss)
+174 silly packumentCache corgi:https://registry.npmjs.org/typescript set size:undefined disposed:false
+175 http fetch GET 200 https://registry.npmjs.org/typescript/-/typescript-5.9.3.tgz 169ms (cache hit)
+176 silly REMOVE node_modules/@emnapi/runtime
+177 silly CHANGE node_modules/update-browserslist-db
+178 silly CHANGE node_modules/typescript
+179 silly CHANGE node_modules/tailwindcss
+180 silly CHANGE node_modules/sucrase
+181 silly CHANGE node_modules/semver
+182 silly CHANGE node_modules/resolve
+183 silly CHANGE node_modules/nanoid
+184 silly CHANGE node_modules/jiti
+185 silly CHANGE node_modules/cssesc
+186 silly ADD
+187 silly CHANGE node_modules/browserslist
+188 silly CHANGE node_modules/baseline-browser-mapping
+189 silly CHANGE node_modules/autoprefixer
+190 silly CHANGE node_modules/@next/swc-win32-arm64-msvc
+191 silly CHANGE node_modules/@next/swc-linux-x64-musl
+192 silly CHANGE node_modules/@next/swc-linux-x64-gnu
+193 silly CHANGE node_modules/@next/swc-linux-arm64-musl
+194 silly CHANGE node_modules/@next/swc-linux-arm64-gnu
+195 silly CHANGE node_modules/@next/swc-darwin-x64
+196 silly CHANGE node_modules/@next/swc-darwin-arm64
+197 silly CHANGE node_modules/next
+198 silly CHANGE node_modules/lucide-react
+199 silly REMOVE node_modules/fsevents
+200 verbose cwd C:\Users\aryam\Documents\Codex\2026-05-29\files-mentioned-by-the-user-screenshot
+201 verbose os Windows_NT 10.0.26200
+202 verbose node v20.20.0
+203 verbose npm  v10.8.2
+204 verbose exit 0
+205 info ok

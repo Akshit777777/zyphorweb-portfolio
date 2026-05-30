@@ -1,0 +1,87 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+  --ocean: #0a3764;
+  --navy: #061a34;
+  --mist: #b8d3e6;
+  --ink: #020a16;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  background: var(--ink);
+}
+
+body {
+  min-height: 100vh;
+  overflow-x: hidden;
+  background:
+    radial-gradient(circle at 20% 0%, rgba(125, 201, 239, 0.18), transparent 30rem),
+    radial-gradient(circle at 85% 12%, rgba(25, 105, 159, 0.22), transparent 34rem),
+    linear-gradient(180deg, #020a16 0%, #03162e 44%, #020a16 100%);
+  color: white;
+  font-family: Inter, Satoshi, Poppins, ui-sans-serif, system-ui, sans-serif;
+}
+
+body::selection {
+  background: rgba(125, 201, 239, 0.35);
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button,
+input,
+select,
+textarea {
+  font: inherit;
+}
+
+.glass {
+  border: 1px solid rgba(184, 211, 230, 0.18);
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.11), rgba(255, 255, 255, 0.035));
+  box-shadow: 0 24px 80px rgba(0, 10, 24, 0.4);
+  backdrop-filter: blur(22px);
+}
+
+.section-shell {
+  width: min(1180px, calc(100% - 32px));
+  margin-inline: auto;
+}
+
+.animated-divider {
+  height: 1px;
+  background: linear-gradient(90deg, transparent, rgba(125, 201, 239, 0.8), transparent);
+  background-size: 200% 100%;
+  animation: dividerFlow 5s ease-in-out infinite;
+}
+
+@keyframes dividerFlow {
+  0%,
+  100% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    scroll-behavior: auto !important;
+    transition-duration: 0.01ms !important;
+  }
+}

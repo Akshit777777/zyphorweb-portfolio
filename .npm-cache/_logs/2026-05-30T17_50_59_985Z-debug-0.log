@@ -1,0 +1,181 @@
+0 verbose cli C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\npm\bin\npm-cli.js
+1 info using npm@10.8.2
+2 info using node@v20.20.0
+3 silly config load:file:C:\Program Files\nodejs\node_modules\npm\npmrc
+4 silly config load:file:C:\Users\aryam\Documents\Codex\2026-05-29\files-mentioned-by-the-user-screenshot\.npmrc
+5 silly config load:file:C:\Users\aryam\.npmrc
+6 silly config load:file:C:\Users\aryam\AppData\Roaming\npm\etc\npmrc
+7 verbose title npm install
+8 verbose argv "install" "--cache" "./.npm-cache" "--no-audit" "--no-fund"
+9 verbose logfile logs-max:10 dir:C:\Users\aryam\Documents\Codex\2026-05-29\files-mentioned-by-the-user-screenshot\.npm-cache\_logs\2026-05-30T17_50_59_985Z-
+10 verbose logfile C:\Users\aryam\Documents\Codex\2026-05-29\files-mentioned-by-the-user-screenshot\.npm-cache\_logs\2026-05-30T17_50_59_985Z-debug-0.log
+11 silly packumentCache heap:2197815296 maxSize:549453824 maxEntrySize:274726912
+12 silly logfile done cleaning log files
+13 silly idealTree buildDeps
+14 silly reify moves {}
+15 verbose reify failed optional dependency C:\Users\aryam\Documents\Codex\2026-05-29\files-mentioned-by-the-user-screenshot\node_modules\@next\swc-win32-arm64-msvc
+16 silly reify mark deleted [
+16 silly reify   'C:\\Users\\aryam\\Documents\\Codex\\2026-05-29\\files-mentioned-by-the-user-screenshot\\node_modules\\@next\\swc-win32-arm64-msvc'
+16 silly reify ]
+17 verbose reify failed optional dependency C:\Users\aryam\Documents\Codex\2026-05-29\files-mentioned-by-the-user-screenshot\node_modules\@next\swc-linux-x64-musl
+18 silly reify mark deleted [
+18 silly reify   'C:\\Users\\aryam\\Documents\\Codex\\2026-05-29\\files-mentioned-by-the-user-screenshot\\node_modules\\@next\\swc-linux-x64-musl'
+18 silly reify ]
+19 verbose reify failed optional dependency C:\Users\aryam\Documents\Codex\2026-05-29\files-mentioned-by-the-user-screenshot\node_modules\@next\swc-linux-x64-gnu
+20 silly reify mark deleted [
+20 silly reify   'C:\\Users\\aryam\\Documents\\Codex\\2026-05-29\\files-mentioned-by-the-user-screenshot\\node_modules\\@next\\swc-linux-x64-gnu'
+20 silly reify ]
+21 verbose reify failed optional dependency C:\Users\aryam\Documents\Codex\2026-05-29\files-mentioned-by-the-user-screenshot\node_modules\@next\swc-linux-arm64-musl
+22 silly reify mark deleted [
+22 silly reify   'C:\\Users\\aryam\\Documents\\Codex\\2026-05-29\\files-mentioned-by-the-user-screenshot\\node_modules\\@next\\swc-linux-arm64-musl'
+22 silly reify ]
+23 verbose reify failed optional dependency C:\Users\aryam\Documents\Codex\2026-05-29\files-mentioned-by-the-user-screenshot\node_modules\@next\swc-linux-arm64-gnu
+24 silly reify mark deleted [
+24 silly reify   'C:\\Users\\aryam\\Documents\\Codex\\2026-05-29\\files-mentioned-by-the-user-screenshot\\node_modules\\@next\\swc-linux-arm64-gnu'
+24 silly reify ]
+25 verbose reify failed optional dependency C:\Users\aryam\Documents\Codex\2026-05-29\files-mentioned-by-the-user-screenshot\node_modules\@next\swc-darwin-x64
+26 silly reify mark deleted [
+26 silly reify   'C:\\Users\\aryam\\Documents\\Codex\\2026-05-29\\files-mentioned-by-the-user-screenshot\\node_modules\\@next\\swc-darwin-x64'
+26 silly reify ]
+27 verbose reify failed optional dependency C:\Users\aryam\Documents\Codex\2026-05-29\files-mentioned-by-the-user-screenshot\node_modules\@next\swc-darwin-arm64
+28 silly reify mark deleted [
+28 silly reify   'C:\\Users\\aryam\\Documents\\Codex\\2026-05-29\\files-mentioned-by-the-user-screenshot\\node_modules\\@next\\swc-darwin-arm64'
+28 silly reify ]
+29 verbose reify failed optional dependency C:\Users\aryam\Documents\Codex\2026-05-29\files-mentioned-by-the-user-screenshot\node_modules\sharp\node_modules\@img\sharp-win32-ia32
+30 silly reify mark deleted [
+30 silly reify   'C:\\Users\\aryam\\Documents\\Codex\\2026-05-29\\files-mentioned-by-the-user-screenshot\\node_modules\\sharp\\node_modules\\@img\\sharp-win32-ia32'
+30 silly reify ]
+31 verbose reify failed optional dependency C:\Users\aryam\Documents\Codex\2026-05-29\files-mentioned-by-the-user-screenshot\node_modules\sharp\node_modules\@img\sharp-win32-arm64
+32 silly reify mark deleted [
+32 silly reify   'C:\\Users\\aryam\\Documents\\Codex\\2026-05-29\\files-mentioned-by-the-user-screenshot\\node_modules\\sharp\\node_modules\\@img\\sharp-win32-arm64'
+32 silly reify ]
+33 verbose reify failed optional dependency C:\Users\aryam\Documents\Codex\2026-05-29\files-mentioned-by-the-user-screenshot\node_modules\sharp\node_modules\@img\sharp-wasm32
+34 silly reify mark deleted [
+34 silly reify   'C:\\Users\\aryam\\Documents\\Codex\\2026-05-29\\files-mentioned-by-the-user-screenshot\\node_modules\\sharp\\node_modules\\@img\\sharp-wasm32'
+34 silly reify ]
+35 verbose reify failed optional dependency C:\Users\aryam\Documents\Codex\2026-05-29\files-mentioned-by-the-user-screenshot\node_modules\@emnapi\runtime
+36 silly reify mark deleted [
+36 silly reify   'C:\\Users\\aryam\\Documents\\Codex\\2026-05-29\\files-mentioned-by-the-user-screenshot\\node_modules\\@emnapi\\runtime'
+36 silly reify ]
+37 verbose reify failed optional dependency C:\Users\aryam\Documents\Codex\2026-05-29\files-mentioned-by-the-user-screenshot\node_modules\sharp\node_modules\@img\sharp-linuxmusl-x64
+38 silly reify mark deleted [
+38 silly reify   'C:\\Users\\aryam\\Documents\\Codex\\2026-05-29\\files-mentioned-by-the-user-screenshot\\node_modules\\sharp\\node_modules\\@img\\sharp-linuxmusl-x64'
+38 silly reify ]
+39 verbose reify failed optional dependency C:\Users\aryam\Documents\Codex\2026-05-29\files-mentioned-by-the-user-screenshot\node_modules\sharp\node_modules\@img\sharp-linuxmusl-arm64
+40 silly reify mark deleted [
+40 silly reify   'C:\\Users\\aryam\\Documents\\Codex\\2026-05-29\\files-mentioned-by-the-user-screenshot\\node_modules\\sharp\\node_modules\\@img\\sharp-linuxmusl-arm64'
+40 silly reify ]
+41 verbose reify failed optional dependency C:\Users\aryam\Documents\Codex\2026-05-29\files-mentioned-by-the-user-screenshot\node_modules\sharp\node_modules\@img\sharp-linux-x64
+42 silly reify mark deleted [
+42 silly reify   'C:\\Users\\aryam\\Documents\\Codex\\2026-05-29\\files-mentioned-by-the-user-screenshot\\node_modules\\sharp\\node_modules\\@img\\sharp-linux-x64'
+42 silly reify ]
+43 verbose reify failed optional dependency C:\Users\aryam\Documents\Codex\2026-05-29\files-mentioned-by-the-user-screenshot\node_modules\sharp\node_modules\@img\sharp-linux-s390x
+44 silly reify mark deleted [
+44 silly reify   'C:\\Users\\aryam\\Documents\\Codex\\2026-05-29\\files-mentioned-by-the-user-screenshot\\node_modules\\sharp\\node_modules\\@img\\sharp-linux-s390x'
+44 silly reify ]
+45 verbose reify failed optional dependency C:\Users\aryam\Documents\Codex\2026-05-29\files-mentioned-by-the-user-screenshot\node_modules\sharp\node_modules\@img\sharp-linux-riscv64
+46 silly reify mark deleted [
+46 silly reify   'C:\\Users\\aryam\\Documents\\Codex\\2026-05-29\\files-mentioned-by-the-user-screenshot\\node_modules\\sharp\\node_modules\\@img\\sharp-linux-riscv64'
+46 silly reify ]
+47 verbose reify failed optional dependency C:\Users\aryam\Documents\Codex\2026-05-29\files-mentioned-by-the-user-screenshot\node_modules\sharp\node_modules\@img\sharp-linux-ppc64
+48 silly reify mark deleted [
+48 silly reify   'C:\\Users\\aryam\\Documents\\Codex\\2026-05-29\\files-mentioned-by-the-user-screenshot\\node_modules\\sharp\\node_modules\\@img\\sharp-linux-ppc64'
+48 silly reify ]
+49 verbose reify failed optional dependency C:\Users\aryam\Documents\Codex\2026-05-29\files-mentioned-by-the-user-screenshot\node_modules\sharp\node_modules\@img\sharp-linux-arm64
+50 silly reify mark deleted [
+50 silly reify   'C:\\Users\\aryam\\Documents\\Codex\\2026-05-29\\files-mentioned-by-the-user-screenshot\\node_modules\\sharp\\node_modules\\@img\\sharp-linux-arm64'
+50 silly reify ]
+51 verbose reify failed optional dependency C:\Users\aryam\Documents\Codex\2026-05-29\files-mentioned-by-the-user-screenshot\node_modules\sharp\node_modules\@img\sharp-linux-arm
+52 silly reify mark deleted [
+52 silly reify   'C:\\Users\\aryam\\Documents\\Codex\\2026-05-29\\files-mentioned-by-the-user-screenshot\\node_modules\\sharp\\node_modules\\@img\\sharp-linux-arm'
+52 silly reify ]
+53 verbose reify failed optional dependency C:\Users\aryam\Documents\Codex\2026-05-29\files-mentioned-by-the-user-screenshot\node_modules\sharp\node_modules\@img\sharp-libvips-linuxmusl-x64
+54 silly reify mark deleted [
+54 silly reify   'C:\\Users\\aryam\\Documents\\Codex\\2026-05-29\\files-mentioned-by-the-user-screenshot\\node_modules\\sharp\\node_modules\\@img\\sharp-libvips-linuxmusl-x64'
+54 silly reify ]
+55 verbose reify failed optional dependency C:\Users\aryam\Documents\Codex\2026-05-29\files-mentioned-by-the-user-screenshot\node_modules\sharp\node_modules\@img\sharp-libvips-linuxmusl-arm64
+56 silly reify mark deleted [
+56 silly reify   'C:\\Users\\aryam\\Documents\\Codex\\2026-05-29\\files-mentioned-by-the-user-screenshot\\node_modules\\sharp\\node_modules\\@img\\sharp-libvips-linuxmusl-arm64'
+56 silly reify ]
+57 verbose reify failed optional dependency C:\Users\aryam\Documents\Codex\2026-05-29\files-mentioned-by-the-user-screenshot\node_modules\sharp\node_modules\@img\sharp-libvips-linux-x64
+58 silly reify mark deleted [
+58 silly reify   'C:\\Users\\aryam\\Documents\\Codex\\2026-05-29\\files-mentioned-by-the-user-screenshot\\node_modules\\sharp\\node_modules\\@img\\sharp-libvips-linux-x64'
+58 silly reify ]
+59 verbose reify failed optional dependency C:\Users\aryam\Documents\Codex\2026-05-29\files-mentioned-by-the-user-screenshot\node_modules\sharp\node_modules\@img\sharp-libvips-linux-s390x
+60 silly reify mark deleted [
+60 silly reify   'C:\\Users\\aryam\\Documents\\Codex\\2026-05-29\\files-mentioned-by-the-user-screenshot\\node_modules\\sharp\\node_modules\\@img\\sharp-libvips-linux-s390x'
+60 silly reify ]
+61 verbose reify failed optional dependency C:\Users\aryam\Documents\Codex\2026-05-29\files-mentioned-by-the-user-screenshot\node_modules\sharp\node_modules\@img\sharp-libvips-linux-riscv64
+62 silly reify mark deleted [
+62 silly reify   'C:\\Users\\aryam\\Documents\\Codex\\2026-05-29\\files-mentioned-by-the-user-screenshot\\node_modules\\sharp\\node_modules\\@img\\sharp-libvips-linux-riscv64'
+62 silly reify ]
+63 verbose reify failed optional dependency C:\Users\aryam\Documents\Codex\2026-05-29\files-mentioned-by-the-user-screenshot\node_modules\sharp\node_modules\@img\sharp-libvips-linux-ppc64
+64 silly reify mark deleted [
+64 silly reify   'C:\\Users\\aryam\\Documents\\Codex\\2026-05-29\\files-mentioned-by-the-user-screenshot\\node_modules\\sharp\\node_modules\\@img\\sharp-libvips-linux-ppc64'
+64 silly reify ]
+65 verbose reify failed optional dependency C:\Users\aryam\Documents\Codex\2026-05-29\files-mentioned-by-the-user-screenshot\node_modules\sharp\node_modules\@img\sharp-libvips-linux-arm64
+66 silly reify mark deleted [
+66 silly reify   'C:\\Users\\aryam\\Documents\\Codex\\2026-05-29\\files-mentioned-by-the-user-screenshot\\node_modules\\sharp\\node_modules\\@img\\sharp-libvips-linux-arm64'
+66 silly reify ]
+67 verbose reify failed optional dependency C:\Users\aryam\Documents\Codex\2026-05-29\files-mentioned-by-the-user-screenshot\node_modules\sharp\node_modules\@img\sharp-libvips-linux-arm
+68 silly reify mark deleted [
+68 silly reify   'C:\\Users\\aryam\\Documents\\Codex\\2026-05-29\\files-mentioned-by-the-user-screenshot\\node_modules\\sharp\\node_modules\\@img\\sharp-libvips-linux-arm'
+68 silly reify ]
+69 verbose reify failed optional dependency C:\Users\aryam\Documents\Codex\2026-05-29\files-mentioned-by-the-user-screenshot\node_modules\sharp\node_modules\@img\sharp-libvips-darwin-x64
+70 silly reify mark deleted [
+70 silly reify   'C:\\Users\\aryam\\Documents\\Codex\\2026-05-29\\files-mentioned-by-the-user-screenshot\\node_modules\\sharp\\node_modules\\@img\\sharp-libvips-darwin-x64'
+70 silly reify ]
+71 verbose reify failed optional dependency C:\Users\aryam\Documents\Codex\2026-05-29\files-mentioned-by-the-user-screenshot\node_modules\sharp\node_modules\@img\sharp-libvips-darwin-arm64
+72 silly reify mark deleted [
+72 silly reify   'C:\\Users\\aryam\\Documents\\Codex\\2026-05-29\\files-mentioned-by-the-user-screenshot\\node_modules\\sharp\\node_modules\\@img\\sharp-libvips-darwin-arm64'
+72 silly reify ]
+73 verbose reify failed optional dependency C:\Users\aryam\Documents\Codex\2026-05-29\files-mentioned-by-the-user-screenshot\node_modules\sharp\node_modules\@img\sharp-darwin-x64
+74 silly reify mark deleted [
+74 silly reify   'C:\\Users\\aryam\\Documents\\Codex\\2026-05-29\\files-mentioned-by-the-user-screenshot\\node_modules\\sharp\\node_modules\\@img\\sharp-darwin-x64'
+74 silly reify ]
+75 verbose reify failed optional dependency C:\Users\aryam\Documents\Codex\2026-05-29\files-mentioned-by-the-user-screenshot\node_modules\sharp\node_modules\@img\sharp-darwin-arm64
+76 silly reify mark deleted [
+76 silly reify   'C:\\Users\\aryam\\Documents\\Codex\\2026-05-29\\files-mentioned-by-the-user-screenshot\\node_modules\\sharp\\node_modules\\@img\\sharp-darwin-arm64'
+76 silly reify ]
+77 verbose reify failed optional dependency C:\Users\aryam\Documents\Codex\2026-05-29\files-mentioned-by-the-user-screenshot\node_modules\chokidar\node_modules\fsevents
+78 silly reify mark deleted [
+78 silly reify   'C:\\Users\\aryam\\Documents\\Codex\\2026-05-29\\files-mentioned-by-the-user-screenshot\\node_modules\\chokidar\\node_modules\\fsevents'
+78 silly reify ]
+79 silly ADD
+80 silly ADD
+81 silly ADD
+82 silly ADD
+83 silly ADD
+84 silly ADD
+85 silly ADD
+86 silly ADD
+87 silly ADD
+88 silly ADD
+89 silly ADD
+90 silly ADD
+91 silly ADD
+92 silly ADD
+93 silly ADD
+94 silly ADD
+95 silly ADD
+96 silly ADD
+97 silly ADD
+98 silly ADD
+99 silly ADD
+100 silly ADD
+101 silly ADD
+102 silly ADD
+103 silly ADD
+104 silly ADD
+105 silly ADD
+106 silly ADD
+107 silly ADD
+108 silly ADD
+109 silly ADD
+110 silly ADD
+111 verbose cwd C:\Users\aryam\Documents\Codex\2026-05-29\files-mentioned-by-the-user-screenshot
+112 verbose os Windows_NT 10.0.26200
+113 verbose node v20.20.0
+114 verbose npm  v10.8.2
+115 verbose exit 0
+116 info ok
